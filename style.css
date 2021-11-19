@@ -7,11 +7,11 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 body {
-    background-color: #331C1E;
+    background-color: #33051E;
     font-family: 'Crimson Pro', serif;
     font-weight: 400;
     font-size: 1.2rem;
-    color: #F2E2C4;
+    color: #EEDFF2;
     text-rendering: optimizeLegibility;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 }
 
 footer{
-    border-top-color: #F2E2C4; 
+    border-top-color: #EEDFF2; 
     border-top-style: solid; 
     border-top-width: 1px;
     
@@ -53,7 +53,7 @@ footer{
 .head-tag{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    color: #F2E2C4;
+    color: #EEDFF2;
     letter-spacing: .25rem;
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased; 
@@ -61,14 +61,21 @@ footer{
 }
 
 .bg-dark {
-    background-color: #331C1E !important;
-    border-bottom-color: #F2E2C4; 
+    background-color: #33051E !important;
+    border-bottom-color: #EEDFF2; 
     border-bottom-style: solid; 
     border-bottom-width: 1px;
 }
 
 .intro {
     padding-top: 6rem;
+    padding-bottom: 1rem;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.intro-btn {
+    padding-top: 3rem;
     padding-bottom: 5.5rem;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
@@ -93,7 +100,7 @@ margin-top: auto !important;
 }
 
 .box {
-    border-color: #F2E2C4; 
+    border-color: #EEDFF2; 
     border-style: solid; 
     border-width: 1px;
     padding-left: 1rem;
@@ -145,7 +152,30 @@ margin-top: auto !important;
 
 .snippeticon{
     font-size: 1.8rem; 
-    color:#F2E2C4;
+    color:#EEDFF2;
+}
+
+.btn-outline-primary{
+    color: #EEDFF2;
+    border-color: #EEDFF2;
+    margin: 16px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.btn-outline-primary:hover {
+  color: #EEDFF2;
+  background-color: rgba(238, 223, 242, .1);
+  border-color: #EEDFF2;
+  margin: 16px;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  letter-spacing: .1rem;
+  font-size: .9rem;
+  font-weight: 400;
 }
 
 .col-md-4 {
@@ -158,7 +188,7 @@ margin-top: auto !important;
 }
 
 .duotone::before {
-  background-color: rgb(109, 54, 57);
+  background-color: rgb(129, 36, 77);
   content: '';
   display: block;
   width: 100%;
@@ -170,7 +200,7 @@ margin-top: auto !important;
 }
 
 .duotone::after {
-  background-color: rgb(51, 28, 30);
+  background-color: rgb(51, 5, 30);
   content: '';
   display: block;
   width: 100%;
