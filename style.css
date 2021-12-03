@@ -148,7 +148,10 @@ margin-top: auto !important;
 
 .icon{
     padding: 16px;
+    font-size: 1.4rem; 
+    color:#EEDFF2;
 }
+
 
 .snippeticon{
     font-size: 1.8rem; 
