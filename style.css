@@ -40,7 +40,6 @@ a {
 
 a:hover {
     color: unset;
-    opacity: 0.65;
 }
 
 footer{
@@ -173,7 +172,7 @@ margin-top: auto !important;
 
 .btn-outline-primary:hover {
   color: #EEDFF2;
-  background-color: rgba(238, 223, 242, .1);
+  background-color: rgba(255, 70, 255, .1);
   border-color: #EEDFF2;
   border-radius: 0px;
   padding: 8px 16px 8px 16px;
@@ -220,4 +219,14 @@ margin-top: auto !important;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+
+.brighten {
+transition: .5s ease;
+}
+
+.brighten:hover {
+-webkit-filter: brightness(150%);
+transition: .5s ease;
 }
